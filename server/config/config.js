@@ -1,7 +1,7 @@
 module.exports={
     port:4500,
     db:{
-        url:"mongodb://127.0.0.1:27017/ssDB"
+         url:"mongodb://127.0.0.1:27017/videolisting"
     },
     allowedCorsOrigin:"*",
     aws: {
