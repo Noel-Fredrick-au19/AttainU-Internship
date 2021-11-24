@@ -50,6 +50,8 @@ router.post('/image-upload' ,multer({storage:storage1}).single('image'),(req,res
 
     res.status(200).send(data)
 
+    // data ---> aws video/image link
+
     if(data){
         var videoList=new videoModel({
             image:data.Location
@@ -86,7 +88,7 @@ router.get('/videoList',(req,res)=>{
 
 
             if(count){
-                
+                  
                 let pages = Math.ceil(count/pageSize);
 
                 let response={

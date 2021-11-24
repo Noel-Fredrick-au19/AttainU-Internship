@@ -9,11 +9,11 @@ module.exports={
             region: "us-east-1"
         },
         profile: {
-            aws_access_key_id: "AKIAWA4YXILYORS23SKR",
-            aws_secret_access_key: "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"
+            aws_access_key_id: "AKIASNZUY32WQHAAZQ4H",
+            aws_secret_access_key: "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"
         },
         s3: {
-            bucket: 'myvideolist'
+            bucket: 'myvideolists'
         }
     }
 }
